@@ -382,7 +382,7 @@ Resources:
         - !Sub 'arn:${AWS::Partition}:iam::aws:policy/AWSCodeDeployFullAccess'
         - !Sub 'arn:${AWS::Partition}:iam::aws:policy/AWSCodePipelineFullAccess'
         - !Sub 'arn:${AWS::Partition}:iam::aws:policy/AWSElasticBeanstalkFullAccess'
-        - !Sub 'arn:${AWS::Partition}:iam::aws:policy/AWSLambdaFullAccess'
+        - !Sub 'arn:${AWS::Partition}:iam::aws:policy/AWSLambda_FullAccess'
         - !Sub 'arn:${AWS::Partition}:iam::aws:policy/AWSCodeStarFullAccess'
         - !Sub 'arn:${AWS::Partition}:iam::aws:policy/CloudWatchEventsFullAccess'
       RoleName: !Sub 'CodeStarWorker-${ProjectId}-ToolChain'
