@@ -380,7 +380,7 @@ Resources:
         - !Sub 'arn:${AWS::Partition}:iam::aws:policy/AWSCodeCommitFullAccess'
         - !Sub 'arn:${AWS::Partition}:iam::aws:policy/AWSCodeBuildAdminAccess'
         - !Sub 'arn:${AWS::Partition}:iam::aws:policy/AWSCodeDeployFullAccess'
-        - !Sub 'arn:${AWS::Partition}:iam::aws:policy/AWSCodePipelineFullAccess'
+        - !Sub 'arn:${AWS::Partition}:iam::aws:policy/AWSCodePipeline_FullAccess'
         - !Sub 'arn:${AWS::Partition}:iam::aws:policy/AdministratorAccess-AWSElasticBeanstalk'
         - !Sub 'arn:${AWS::Partition}:iam::aws:policy/AWSLambda_FullAccess'
         - !Sub 'arn:${AWS::Partition}:iam::aws:policy/AWSCodeStarFullAccess'
